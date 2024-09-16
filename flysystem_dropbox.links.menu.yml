@@ -1,0 +1,5 @@
+flysystem_dropbox.config:
+  title: 'Configure Flysystem Dropbox'
+  description: 'Configure settings related to Flysystem.'
+  parent: system.file_system_settings
+  route_name: flysystem_dropbox.config

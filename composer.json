@@ -1,0 +1,7 @@
+{
+  "name": "drupal/flysystem_dropbox",
+  "require": {
+    "spatie/flysystem-dropbox": "^3.0",
+    "stevenmaguire/oauth2-dropbox": "^3.1"
+  }
+}

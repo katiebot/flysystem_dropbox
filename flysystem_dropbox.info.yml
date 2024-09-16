@@ -1,0 +1,11 @@
+name: Flysystem Dropbox
+description: 'Provides a Dropbox plugin for Flysystem.'
+package: Flysystem
+type: module
+dependencies:
+ - flysystem
+
+core_version_requirement: ^10
+project: 'flysystem_dropbox'
+version: 1.0
+configure: flysystem_dropbox.config

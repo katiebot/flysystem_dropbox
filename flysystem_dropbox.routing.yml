@@ -1,0 +1,7 @@
+flysystem_dropbox.config:
+  path: '/admin/config/media/file-system/flysystem/flysystem-dropbox'
+  defaults:
+    _form: '\Drupal\flysystem_dropbox\Form\ConfigForm'
+    _title: 'Flysystem Dropbox settings'
+  requirements:
+    _permission: 'administer flysystem'
