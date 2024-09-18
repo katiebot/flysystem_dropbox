@@ -52,17 +52,17 @@ class ConfigForm extends ConfigFormBase
     // Client ID field
     $form['client_id'] = [
       '#type' => 'textfield',
-      '#title' => t('Client ID'),
+      '#title' => t('App key'),
       '#default_value' => $config->get('flysystem_dropbox.client_id'),
-      '#description' => $this->t('Your Dropbox client ID.'),
+      '#description' => $this->t('Your Dropbox app key.'),
     ];
 
     // Client Secret field
     $form['client_secret'] = [
       '#type' => 'textfield',
-      '#title' => t('Client secret'),
+      '#title' => t('App secret'),
       '#default_value' => $config->get('flysystem_dropbox.client_secret'),
-      '#description' => $this->t('Your Dropbox client secret.'),
+      '#description' => $this->t('Your Dropbox app secret.'),
     ];
 
     // Access code field

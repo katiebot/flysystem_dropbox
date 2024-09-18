@@ -196,6 +196,7 @@ class Dropbox implements FlysystemPluginInterface {
 
       $tokenProvider = new AutoRefreshingDropBoxTokenService($authClient);
       $token = $tokenProvider->getAccessToken();
+      \Drupal::logger('flysystem_dropbox')->notice('Debug 4: ' . print_r($token,1));
 
       $this->client = new Client($token->getToken(), $authClient->getHttpClient());
     }
